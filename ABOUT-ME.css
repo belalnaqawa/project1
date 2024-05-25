@@ -1,0 +1,25 @@
+.about-me {
+    background-color: #ADD8E6;
+    color: #000;
+}
+
+.section-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.section-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section-content ul li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    width: 60%;
+    margin-right: 40%;
+}

@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .hero {
+        position: relative;
+        width:100%;
+    height: 100vh;
+    background: white;
+
+    }
+    
+       
+        .detail {
+            margin-left:8%;
+            margin-top: 13%;
+            
+            margin-bottom:20px;
+        }
+        span {
+            color: #C6A031;
+        }
+        .detail h1 {
+            font-size: 50px;
+            color: black;
+            margin-bottom: 20px
+        }
+        .detail p {
+            color: gray;
+        line-height: 22px; }
+        
+        .detail a{
+            background: black;
+            padding: 10px 18px;
+            text-decoration:none;
+            font-weight: bold;
+            color: white;
+            display: inline-block
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        
+        .images {
+            width: 45%;
+            height: 80%;
+            position:absolute;
+            bottom: 0;
+            right: 100px;
+        }
+        .images img{
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s, left 1s;
+        }
+        
+        .images:hover .shape {
+            bottom: 40px;
+        }
+        
+        .images:hover .girl{
+            left: 45%;
+        }
+        .logo {
+            height: 50px;
+            width: 50px;
+            border-radius: 5%;
+        }
+        .me {
+            height: auto;
+        width: auto;
+        border-radius: 5%;
+        box-shadow: ;
+    }
+
+.shape{
+    height: auto;
+    width: auto;
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    
+    header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    section {
+        padding: 50px 0;
+    }
+    
+    section h2 {
+        margin-top: 0;
+    }
+    
+    .project {
+        margin-bottom: 20px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .detail {
+        margin-left: 6%;
+        margin-top: 10%;
+    }
+
+    .detail h1 {
+        font-size: 40px;
+    }
+
+    .images {
+        width: 50%;
+        right: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .detail {
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+
+    .detail h1 {
+        font-size: 35px;
+    }
+
+    .images {
+        width: 55%;
+        right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .detail {
+        margin-left: 4%;
+        margin-top: 6%;
+    }
+
+    .detail h1 {
+        font-size: 30px;
+    }
+
+    .images {
+        width: 60%;
+        right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .detail {
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    .detail h1 {
+        font-size: 25px;
+    }
+
+    .detail p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .detail a {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .images {
+        width: 70%;
+        right: 10px;
+    }
+
+    .images img {
+        height: auto;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 400px) {
+    .detail {
+        margin-left: 1%;
+        margin-top: 3%;
+    }
+
+    .detail h1 {
+        font-size: 20px;
+    }
+
+    .detail p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .detail a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .images {
+        width: 80%;
+        right: 5px;
+    }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+ 

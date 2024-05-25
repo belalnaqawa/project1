@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .contact-section {
+            background-color: lightblue;
+            padding: 50px 0;
+        }
+        .contact-card {
+            box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
+            border: none;
+        }
+        .contact-card .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .contact-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+        }
+        .social-icons a {
+            color: #495057;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        .social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;}
+@media (max-width:700px){
+
+    .contact-section > contact-card contact-details {
+    background-color: aqua;
+}
+.navbar-brand {
+text-align: center;  
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+}   
+
+    </style>
+</head>
+<body>
+    
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top text-dark">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn.dribbble.com/users/2083301/screenshots/16978531/bilal_2_4x.jpg" width="70" height="40">
+            </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" target="_blank" href="file:///C:/Users/Orange/Desktop/Lecture%201/HTML/Project-upd/PORTFOLIO.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " target="_blank" href="http://127.0.0.1:5500/Project-upd/PROJECTS.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " target="_blank" href="http://127.0.0.1:5500/Project-upd/ABOUT-ME.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank"
+                        href="C:\Users\Orange\Desktop\Lecture 1\HTML\Project-upd\PORTFOLIO.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+<section class="contact-section" style="height: 100%; width: 100%;">
+    <div class="container">
+        <h2 class="text-center mb-5"> </h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card contact-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Get in Touch</h5>
+                        <div class="contact-details">
+                            <div><strong>Email:</strong> naqawabelal@gmail.com</div>
+                            <div><strong>Phone:</strong> (+962) 79 0394203</div>
+                            <div><strong>Address:</strong> 11953 Uhod Street, Khilda, Amman, </div>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+<source><img src="https://pngimg.com/uploads/github/github_PNG53.png" alt="">                          
+</a>
+                            <a href="https://www.linkedin.com/in/belal-naqawa" target="_blank" aria-label="LinkedIn">
+                                <source><img src="https://logospng.org/download/linkedin/logo-linkedin-icon-2048.png" alt="">                          
+                            </a>
+                            <a href="https://www.instagram.com/naqawa.b/" target="_blank" aria-label="instagram-logo-transparent-background-2">
+                                <source><img src="https://clipartcraft.com/images/instagram-logo-transparent-background-2.png" alt="">                          
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
